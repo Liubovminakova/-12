@@ -11,9 +11,10 @@ body{
 .header{
   display:flex;
   justify-content:space-between;
-  width: 82%;
-  margin: auto;
-  padding: 80px 0;
+  margin: 0 auto;
+  max-width: 90%;
+  align-items: center;
+  padding: 87px 0 212px;
 }
 
 .menu, .logo{
@@ -70,23 +71,79 @@ padding: 0 51% 0 0:
   width: 100%;
 }
 
-.main__title{
-  margin: 0 0 35px 0;
-font: 700 98px/130px 'pt_serifbold', helvetica, arial, sans-serif;
-color: #F8EEE4;
+
+.content {
+  display: flex;
 }
-.main__subtitle{
-  margin: 0 0 61px 0;
-font: 22px/26px "MuseoSansCyrl100", helvetica, arial, sans-serif;
-color: #F8EEE4;
+
+.info {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 100%;
 }
-.main__button{
-display: inline-block;
-width: 294px;
-height: 62px;
-font: 22px/26px "MuseoSansCyrl100", helvetica, arial, sans-serif;
-color: #FFF;
-background: #0056EC;
-background: #D4BEA3;
-border-radius: 48px;
+
+.info__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.info__img {
+  background: url(img/Bali.svg) no-repeat;
+  background-size: 95%;
+  width: 537px;
+  height: 252px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 49px;
+}
+
+.info__text {
+  font-size: 20px;
+  color: #f8eee4;
+  margin: 25px 0;
+  width: 29vw;
+}
+
+.info__btn {
+  width: 293.76px;
+  height: 61.88px;
+  background: #d4bea3;
+  border-radius: 48px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background 1s ease-out;
+  outline: none;
+  margin-right: 310px;
+}
+
+.info__btn:hover {
+  background: #cab437;
+}
+
+.pic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.pic__img-temple {
+  height: 400px;
+}
+
+.pic__img-gates {
+  height: 370px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.pic__img-field {
+  height: 370px;
 }
