@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+}
+.wrapper{
+  height: 100vh;
+  background: url(img/Cover_img.png);
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  width: 82%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.menu, .logo{
+  display: inline-block;
+}
+
+.logo{
+  background: url(img/logo.svg);
+  width: 147px;
+  height: 56px;
+}
+
+.menu{
+  display:flex;
+  align-items:center;
+}
+
+.menu__item{
+  position: relative;
+  margin-right: 26px;
+  font: 22px/26px "MuseoSansCyrl100", helvetica, arial, sans-serif;
+  color: #F8EEE4;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.menu__item:last-child{
+  padding-right: 0;
+}
+
+.menu__item:after{
+  display:block;
+  content:"";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #F8EEE4;;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+
+.menu__item:hover{
+  opacity:.5;
+}
+
+.main{
+width: 87%;
+padding: 0 51% 0 0:
+}
+
+.menu__item:hover:after,menu__item_active:after{
+  opacity: 1;
+  width: 100%;
+}
+
+.main__title{
+  margin: 0 0 35px 0;
+font: 700 98px/130px 'pt_serifbold', helvetica, arial, sans-serif;
+color: #F8EEE4;
+}
+.main__subtitle{
+  margin: 0 0 61px 0;
+font: 22px/26px "MuseoSansCyrl100", helvetica, arial, sans-serif;
+color: #F8EEE4;
+}
+.main__button{
+display: inline-block;
+width: 294px;
+height: 62px;
+font: 22px/26px "MuseoSansCyrl100", helvetica, arial, sans-serif;
+color: #FFF;
+background: #0056EC;
+background: #D4BEA3;
+border-radius: 48px;
+}
