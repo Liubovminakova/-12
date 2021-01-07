@@ -11,10 +11,9 @@ body{
 .header{
   display:flex;
   justify-content:space-between;
-  margin: 0 auto;
-  max-width: 90%;
-  align-items: center;
-  padding: 87px 0 212px;
+  width: 85%;
+  padding: 85px 0 210px;
+  margin-left: 10%;
 }
 
 .menu, .logo{
@@ -32,9 +31,10 @@ body{
   align-items:center;
 }
 
+
 .menu__item{
   position: relative;
-  margin-right: 26px;
+  margin-right: 36px;
   font: 22px/26px "MuseoSansCyrl100", helvetica, arial, sans-serif;
   color: #F8EEE4;
   text-decoration: none;
@@ -89,24 +89,25 @@ padding: 0 51% 0 0:
   flex-direction: column;
   flex-basis: 50%;
   align-items: center;
+  margin-right: 70px;
 }
 
 .info__img {
-  background: url(img/Bali.svg) no-repeat;
+  background: url(img/1366Bali.svg) no-repeat;
   background-size: 95%;
   width: 537px;
   height: 252px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-bottom: 49px;
+  margin-bottom: 30px;
 }
 
 .info__text {
-  font-size: 20px;
   color: #f8eee4;
-  margin: 25px 0;
-  width: 29vw;
+  margin-bottom: 1.83vw;
+  width: 26.5vw;
+  font-size: 23px;
 }
 
 .info__btn {
@@ -120,7 +121,7 @@ padding: 0 51% 0 0:
   border: none;
   transition: background 1s ease-out;
   outline: none;
-  margin-right: 310px;
+  margin-right: 230px;
 }
 
 .info__btn:hover {
@@ -135,15 +136,25 @@ padding: 0 51% 0 0:
 }
 
 .pic__img-temple {
-  height: 400px;
+  transition: flex 0.3s ease-out;
+  height: 422px;
+  width: 318px;
 }
 
 .pic__img-gates {
-  height: 370px;
-  margin-right: 25px;
-  margin-left: 25px;
+  transition: flex 0.3s ease-out;
+  height: 380px;
+  width: 284px;
+  margin-right: 30px;
+  margin-left: 42px;
 }
 
 .pic__img-field {
-  height: 370px;
+  flex: 1;
+  transition: flex 0.3s ease-out;
+  height: 380px;
+  width: 207px;
+}
+.pic__img-field:hover {
+    flex: 4;
 }
