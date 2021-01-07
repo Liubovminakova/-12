@@ -67,6 +67,7 @@
     font-weight: 700;
 }
 
+
 @font-face {
     font-family: "MuseoSansCyrl900Italic";
     url("../fonts/MuseoSansCyrl100/MuseoSansCyrl100.woff") format("woff"),
@@ -74,15 +75,13 @@
     font-weight: 900;
 }
 
+
 @font-face {
     font-family: 'pt_serifitalic';
     src: url('ptserif-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -90,10 +89,7 @@
     src: url('ptserif-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -101,10 +97,7 @@
     src: url('ptserif-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -112,10 +105,7 @@
     src: url('ptserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -123,10 +113,7 @@
     src: url('ptserif-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -138,17 +125,12 @@
 }
 
 
-
-
 @font-face {
     font-family: 'pt_serifitalic';
     src: url('ptserif-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
