@@ -6,13 +6,14 @@ body{
   background: url(img/Cover_img.png);
   background-size: cover;
   overflow-y: hidden;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .header{
   display:flex;
   justify-content:space-between;
   width: 85%;
-  padding: 85px 0 210px;
+  padding: 87px 0 210px;
   margin-left: 10%;
 }
 
@@ -25,6 +26,7 @@ body{
   width: 147px;
   height: 56px;
 }
+
 
 .menu{
   display:flex;
