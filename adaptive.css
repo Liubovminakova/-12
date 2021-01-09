@@ -112,7 +112,6 @@
 .mobile-menu__checkbox:checked ~ .mobile-menu__button .mobile-menu__line::after {
   top: -23px;
   right: -9px;
-  #172F27;
   }
 
 .mobile-menu__checkbox:checked ~ .mobile-menu__button .mobile-menu__line::after {
@@ -257,9 +256,6 @@
 
   @media only screen and (min-width: 769px) and (max-width: 1023px) {
 
-.header{
-  padding-bottom: 170px;
-}
 
 .logo{
   width: 104px;
@@ -267,15 +263,44 @@
   background: url(img/1366logo.svg);
 }
 
-.info__text{
-  width: 70%;
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 25px;
+.header{
+  width: 85%;
+  padding: 40px 0 107px 40px;
+  margin: 0;
   }
 
-  .info__btn{
-    margin: auto;
+.mobile-menu{
+  padding-top: 4px;
+  }
+
+.info__content{
+  margin: 0;
+  }
+
+.info__img {
+  background: url(img/Mobile_Bali.svg) no-repeat;
+  width: 345px;
+  height: 160px;
+  margin-bottom: 32px;
+  }
+
+.info__subtitle{
+  width: 284px;
+  }
+
+.info__text{
+  margin-bottom: 37px;
+  text-align: center;
+  font: 20px/24px "MuseoSansCyrl100", arial, helvetica, sans-serif;
+  width:70%
+  }
+
+.info__btn {
+  width: 209px;
+  height: 44px;
+  font: 16px/19px "MuseoSansCyrl100", arial, helvetica, sans-serif;
+  justify-content: center;
+  margin: auto;
   }
 
 }
@@ -340,8 +365,9 @@
 @media only screen and (min-width: 100px) and (max-width: 350px) {
 
 .header {
-  margin-bottom: 75px;
-  height: 30%;
+  width: 85%;
+  padding-bottom: 20%;
+
   }
 
 .mobile-menu {
@@ -361,9 +387,9 @@
   }
 
 .info__text {
-  width: 316px;
   text-align: center;
   margin: 0px 0px 37px 0px;
+  width: 77%
   }
 
 .info__btn {
