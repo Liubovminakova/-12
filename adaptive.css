@@ -112,7 +112,6 @@
 .mobile-menu__checkbox:checked ~ .mobile-menu__button .mobile-menu__line::after {
   top: -23px;
   right: -9px;
-  #172F27;
   }
 
 .mobile-menu__checkbox:checked ~ .mobile-menu__button .mobile-menu__line::after {
